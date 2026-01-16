@@ -1,11 +1,5 @@
 # vim: set ft=ruby
 
-# Taps
-tap 'hashicorp/tap'
-tap 'nikitabobko/tap'
-tap 'siderolabs/tap'
-tap 'fluxcd/tap'
-
 # Core utilities
 brew 'age'
 brew 'atuin'
@@ -30,7 +24,6 @@ brew 'prettier'
 brew 'restic'
 brew 'ripgrep'
 brew 'rustup'
-brew 'siderolabs/tap/talosctl'
 brew 'sops'
 brew 'syncthing'
 brew 'tmux'
@@ -39,6 +32,10 @@ brew 'wget'
 brew 'yq'
 brew 'yt-dlp'
 brew 'zoxide'
+
+# AI
+cask 'claude-code'
+cask 'codex'
 
 # Golang tools
 brew 'go'
@@ -52,20 +49,19 @@ brew 'chart-testing'
 brew 'helm'
 brew 'kind'
 brew 'kubecolor'
-brew 'kubectx'
 brew 'kustomize'
-brew 'stern'
 brew 'yamllint'
 brew 'fluxcd/tap/flux'
 
-# cask 'istat-menus'
 cask 'audacity'
 cask 'brave-browser'
 cask 'chatgpt'
+cask 'claude'
 cask 'firefox'
 cask 'font-jetbrains-mono'
 cask 'ghostty'
-cask 'google-cloud-sdk'
+cask 'gcloud-cli'
+cask 'istat-menus'
 cask 'nikitabobko/tap/aerospace'
 cask 'orbstack'
 cask 'raycast'
